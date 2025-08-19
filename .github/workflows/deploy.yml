@@ -30,4 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng -- deploy --repo="https://github.com/jdmenaa/app-angular-deploy.git" --name="Jmena" --email="jmena1719@gmail.com" --base-href=/app-angular-deploy/
+          npm run ng -- deploy --repo="https://github.com/jdmenaa/app-angular-deploy.git" --name="jdmena" --email="jmena1719@gmail.com" --base-href=/app-angular-deploy/
